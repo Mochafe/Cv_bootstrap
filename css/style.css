@@ -1,0 +1,28 @@
+.text-blue {
+    color: rgb(9, 57, 189);
+}
+.text-red {
+    color: rgb(173, 29, 29);
+}
+.text-yellow {
+    color: rgb(212, 214, 68);
+}
+.text-green {
+    color: rgb(39, 104, 42);
+}
+.bg-blue {
+    background-color: rgb(65, 102, 204);
+}
+.bg-yellow {
+    background-color: rgb(251, 255, 0);
+}
+.bg-green {
+    background-color: rgb(37, 141, 42);
+}
+.bg-orange {
+    background-color: rgb(179, 67, 15);
+}
+.logo {
+    width: auto;
+    height: 64px;
+}
