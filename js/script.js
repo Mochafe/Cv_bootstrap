@@ -9,7 +9,7 @@ let nav_button = document.getElementsByClassName("nav-link");
 let prev_btn = document.querySelector(".carousel-control-prev");
 let next_btn = document.querySelector(".carousel-control-next");
 //carousel
-let carouselElement = document.getElementById("carousel");
+let carouselElement = document.getElementById("carousel1");
 let carousel =  new bootstrap.Carousel(carouselElement, {
     interval: false
 });
