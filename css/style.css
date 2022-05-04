@@ -10,6 +10,9 @@
 .text-green {
     color: rgb(39, 104, 42);
 }
+.text-grey {
+    color: rgb(168, 167, 167);
+}
 .bg-blue {
     background-color: rgb(65, 102, 204);
 }
@@ -25,4 +28,26 @@
 .logo {
     width: auto;
     height: 64px;
+}
+
+.card-img-top {
+    width: 256px;
+    height: auto;
+}
+
+.logo-itchio {
+    width: 256px;
+    height: auto;
+
+    margin-top: 80px;
+    margin-bottom: 85px;
+}
+
+.card {
+    height: 512px;
+}
+
+.card-description {
+    height: 100px;
+    overflow: scroll;
 }
