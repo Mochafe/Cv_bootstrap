@@ -43,8 +43,8 @@
         </nav>
     </header>
     <!--Carousel-->
-    <div id="carousel1" class="carousel carousel-dark" data-bs-ride="carousel">
-        <div class="carousel-inner">
+    <div id="carousel1" class="carousel slide carousel-dark h-90" data-bs-ride="carousel" data-bs-interval="false">
+        <div class="carousel-inner h-100">
             <div class="carousel-item active">
                 <!--Profil-->
                 <div class="d-block w-100">
@@ -59,12 +59,12 @@
             <div class="carousel-item">
                 <!--Compétence-->
                 <div class="d-block w-100">
-                    <div class="container mt-5 py-4 text-center text-black"> 
-                        <div class="row">
-                            <div class="col">
-                                <h1 class="bg-dark bg-gradient rounded-pill align-content-center text-white">Compétence</h1>
+                    <div class="container mt-5"> 
+                        <div class="row bg-dark bg-gradient rounded-pill align-content-center text-white">
+                            <div class="col text-center">
+                                <h1>Compétence</h1>
                             </div>
-                        </div> 
+                        </div>
                                      
                         <div class="row my-5 bg-light rounded-pill py-3">
                             <!--C++-->  
@@ -80,7 +80,7 @@
                                 <div class="row mt-3 pb-4">
                                     <div class="col-10 offset-1">
                                         <div class="progress">
-                                            <div class="progress-bar progress-bar-striped bg-blue" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-blue" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
                                                 80%
                                             </div>
                                         </div>
@@ -100,7 +100,7 @@
                                 <div class="row mt-3 pb-4">
                                     <div class="col-10 offset-1">
                                         <div class="progress">
-                                            <div class="progress-bar progress-bar-striped bg-green" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-green" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
                                                 70%
                                             </div>
                                         </div>
@@ -123,7 +123,7 @@
                                 <div class="row mt-3 pb-4">
                                     <div class="col-10 offset-1">
                                         <div class="progress">
-                                            <div class="progress-bar progress-bar-striped bg-black" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-black" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
                                                 60%
                                             </div>
                                         </div>
@@ -143,7 +143,7 @@
                                 <div class="row mt-3 pb-4">
                                     <div class="col-10 offset-1">
                                         <div class="progress">
-                                            <div class="progress-bar progress-bar-striped bg-yellow" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-yellow" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
                                                 <span class="text-black">50%</span>
                                             </div>
                                         </div>
@@ -166,7 +166,7 @@
                                 <div class="row mt-3 pb-4">
                                     <div class="col-10 offset-1">
                                         <div class="progress">
-                                            <div class="progress-bar progress-bar-striped bg-orange" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-orange" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
                                                 80%
                                             </div>
                                         </div>
@@ -186,7 +186,7 @@
                                 <div class="row mt-3 pb-4">
                                     <div class="col-10 offset-1">
                                         <div class="progress">
-                                            <div class="progress-bar progress-bar-striped bg-blue" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-blue" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
                                                 50%
                                             </div>
                                         </div>
@@ -211,11 +211,11 @@
                         </div>
                     </div>
                     <div class="row mt-2 bg-light border-bottom rounded-3">
-                        <div class="col-12 col-md-3 p-3 my-3">
+                        <div class="col-12 col-lg-3 p-3 my-3">
                             <!--Projet Github-->
                             <!--State Machine-->
                             <div class="card">
-                                <img src="img/github.svg" alt="logo Github" class="card-img-top p-3">
+                                <img src="img/github.svg" alt="logo Github" class="card-img-top w-100 card-github-margin p-3">
                                 <div class="card-body">
                                     <h5 class="card-title">State Machine</h5>
                                     <p class="card-text fw-bold"><span class="text-grey">[Unity]</span>, <span class="text-green">[C#]</span></p>
@@ -224,10 +224,10 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-md-3 p-3 my-3">
+                        <div class="col-12 col-lg-3 p-3 my-3">
                             <!--Automate Cellulaire-->
                             <div class="card">
-                                <img src="img/github.svg" alt="logo Github" class="card-img-top p-3">
+                                <img src="img/github.svg" alt="logo Github" class="card-img-top w-100 card-github-margin p-3">
                                 <div class="card-body">
                                     <h5 class="card-title">Automate Cellulaire</h5>
                                     <p class="card-text fw-bold"><span class="text-blue">[C++]</span>, <span class="text-green">[SFML]</span></p>
@@ -238,10 +238,10 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-md-3 p-3 my-3">
+                        <div class="col-12 col-lg-3 p-3 my-3">
                             <!--ChessRPG-->
-                            <div class="card">
-                                <img src="img/itchio.png" alt="logo Itch.io" class="card-img-top p-3 logo-itchio">
+                            <div class="card my-3 my-lg-0">
+                                <img src="img/itchio.png" alt="logo Itch.io" class="card-img-top w-100 card-itchio-margin p-3">
                                 <div class="card-body">
                                     <h5 class="card-title">ChessRPG</h5>
                                     <p class="card-text fw-bold"><span class="text-grey">[Unity]</span>, <span class="text-green">[C#]</span></p>
@@ -252,10 +252,10 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-md-3 p-3 my-3">
+                        <div class="col-12 col-lg-3 p-3 my-3">
                             <!--Neovade-->
-                            <div class="card">
-                                <img src="img/itchio.png" alt="logo Itch.io" class="card-img-top p-3 logo-itchio">
+                            <div class="card ">
+                                <img src="img/itchio.png" alt="logo Itch.io" class="card-img-top w-100 p-3 card-itchio-margin">
                                 <div class="card-body">
                                     <h5 class="card-title">Neovade</h5>
                                     <p class="card-text fw-bold"><span class="text-grey">[Unity]</span>, <span class="text-green">[C#]</span></p>
@@ -270,30 +270,70 @@
                     
                 </div>
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item h-100">
                 <!--Formation-->
-                <div class="container d-block">
-                    <h1>Forma</h1>
+                <div class="container mt-5">
+                    <div class="row bg-dark bg-gradient rounded-pill align-content-center text-white">
+                        <div class="col text-center">
+                            <h1>Formation</h1>
+                        </div>
+                    </div>
+                    <div class="row mt-5">
+                        <div class="accordion" id="accordionFormation">
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="panels-header-lycee">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panels-college" aria-expanded="true" aria-controls="panels-college">
+                                  2014
+                                </button>
+                              </h2>
+                              <div id="panels-college" class="accordion-collapse collapse show" aria-labelledby="panels-header-lycee">
+                                <div class="accordion-body">
+                                  <p>Troisième achevée - Collège Marthe Lefèvre</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="panels-header-lycee">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panels-lycee" aria-expanded="true" aria-controls="panels-lycee">
+                                  2015-2017
+                                </button>
+                              </h2>
+                              <div id="panels-lycee" class="accordion-collapse collapse show" aria-labelledby="panels-header-lycee">
+                                <div class="accordion-body">
+                                  <p>Seconde Général achevée - Lycée Pierre de la Ramée</p>
+                                  <p>Seconde Bac Pro Electrotechnique achevée - Lycée Professionnel Colard Noël</p>
+                                  <p>Première Bac Pro Systèmes Electroniques Numérique (SEN)- Lycée Pierre Méchain</p>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="carousel-item">
                 <!--Contact-->
-                <div class="container d-block">
-                    <h1>Contact</h1>
+                <div class="container mt-5">
+                    <div class="row bg-dark bg-gradient text-white rounded-pill">
+                        <div class="col text-center">
+                            <h1>Contact</h1>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
+        <button class="carousel-control-prev d-none d-md-inline-block" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
           </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carousel1" data-bs-slide="next">
+          <button class="carousel-control-next d-none d-md-inline-block" type="button" data-bs-target="#carousel1" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
           </button>
     </div>  
 
     <!--Bootstrap bundle-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>

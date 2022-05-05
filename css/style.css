@@ -1,3 +1,9 @@
+html, body {
+    height: 100%;
+}
+.h-90{
+    height: 90%;
+}
 .text-blue {
     color: rgb(9, 57, 189);
 }
@@ -17,7 +23,7 @@
     background-color: rgb(65, 102, 204);
 }
 .bg-yellow {
-    background-color: rgb(251, 255, 0);
+    background-color: rgb(216, 219, 29);
 }
 .bg-green {
     background-color: rgb(37, 141, 42);
@@ -35,19 +41,34 @@
     height: auto;
 }
 
-.logo-itchio {
-    width: 256px;
-    height: auto;
-
+.card-itchio-margin {
     margin-top: 80px;
     margin-bottom: 85px;
 }
 
+.card-github-margin {
+    margin-top: 15px;
+    margin-bottom: 22px;
+}
+
 .card {
-    height: 512px;
+    height: fit-content;
+}
+
+.card-title {
+    height: 40px;
 }
 
 .card-description {
     height: 100px;
     overflow: scroll;
+}
+
+@media screen and (max-width: 992px) {
+    .card {
+        height: fit-content;
+    }
+    html, body{
+        height: fit-content;
+    }
 }
