@@ -2,8 +2,9 @@ html, body {
     height: 100%;
 }
 .h-90{
-    height: 90%;
+    height: 80%;
 }
+
 .text-blue {
     color: rgb(9, 57, 189);
 }
@@ -31,11 +32,17 @@ html, body {
 .bg-orange {
     background-color: rgb(179, 67, 15);
 }
+
 .logo {
     width: auto;
     height: 64px;
 }
 
+.footer-img{
+    filter: invert(100%);
+    width: auto;
+    height: 24px;
+}
 .card-img-top {
     width: 256px;
     height: auto;

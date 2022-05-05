@@ -1,6 +1,8 @@
 function carouselTo(slide) {
     //console.log(`Slide ${slide} active`);
+    carouselElement.setAttribute("class","carousel carousel-dark h-90");
     carousel.to(`${slide}`);
+    carouselElement.setAttribute("class","carousel slide carousel-dark h-90");
 }
 
 //Navbar buttons
