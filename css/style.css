@@ -2,7 +2,7 @@ html, body {
     height: 100%;
 }
 .h-90{
-    height: 80%;
+    height: fit-content;
 }
 
 .text-blue {
@@ -70,12 +70,28 @@ html, body {
     height: 100px;
     overflow: scroll;
 }
+.pl {
+    padding-left: 75px;
+}
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1200px) {
     .card {
         height: fit-content;
     }
     html, body{
         height: fit-content;
     }
+    .h-90{
+        height: fit-content;
+    }
+    .p-footer {
+        margin-bottom: 100px;
+    }
+    footer div.row {
+
+    }
+    .pl {
+        padding-left: 20px;
+    }
+    
 }
